@@ -1,34 +1,45 @@
-The latest version of this software as well as binary installers for Windows,
-macOS, and Linux (RPM) are available from
-[Nmap.org](https://nmap.org/download.html)
+# 🔍 Nmap Full Automation
 
-Full documentation is also available
-[on the Nmap.org website](https://nmap.org/docs.html).
+## 🚀 Industry-Grade Automated Scanning
 
-Questions and suggestions may be sent to
-[the Nmap-dev mailing list](https://nmap.org/mailman/listinfo/dev).
+Welcome to **Nmap Full Automation**—a powerful, fast, and easy-to-use alternative to Nmap that completely automates your scanning process. Designed for efficiency, this tool enhances the traditional Nmap workflow, making industry-based network reconnaissance seamless and more effective.
 
-Installing
-----------
-Ideally, you should be able to just type:
+## 🌟 Features
+- **Fully Automated**: No manual intervention required.
+- **Fast & Efficient**: Optimized scanning process for quicker results.
+- **Industry-Ready**: Designed for professional use.
+- **Easy to Use**: Simplified commands to get results faster.
 
-    ./configure
-    make
-    make install
+## ⚡ Installation
+Before installing, ensure you have Python installed. Then, follow these steps:
 
-For far more in-depth compilation, installation, and removal notes, read the
-[Nmap Install Guide](https://nmap.org/book/install.html) on Nmap.org.
+```bash
+# Clone the repository
+git clone https://github.com/alexuuhat/nmap-full-automation.git
+cd nmap-full-automation
 
-Using Nmap
-----------
-Nmap has a lot of features, but getting started is as easy as running `nmap
-scanme.nmap.org`. Running `nmap` without any parameters will give a helpful
-list of the most common options, which are discussed in depth in [the man
-page](https://nmap.org/book/man.html). Users who prefer a graphical interface
-can use the included [Zenmap front-end](https://nmap.org/zenmap/).
+# Install dependencies
+pip install -r requirements.txt
+```
 
-Contributing
-------------
-Information about filing bug reports and contributing to the Nmap project can
-be found in the [HACKING](HACKING) and [CONTRIBUTING.md](CONTRIBUTING.md)
-files.
+## 🔥 Usage
+Ensure all dependencies are installed before running the tool.
+
+```bash
+python nmap_auto.py -t <target>
+```
+
+### Example:
+```bash
+python nmap_auto.py -t 192.168.1.1
+```
+
+## 🛠 Requirements
+- Python 3.x
+- Nmap installed on your system
+- Required Python libraries (install using `pip install -r requirements.txt`)
+
+## 💡 Contribute
+Feel free to fork and contribute to improve this project!
+
+---
